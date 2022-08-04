@@ -18,6 +18,8 @@
 		32EE3FED289BDEC9005BFE53 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32EE3FEB289BDEC9005BFE53 /* MainViewController.xib */; };
 		32EE3FF1289BDEE0005BFE53 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE3FEF289BDEE0005BFE53 /* FavoriteViewController.swift */; };
 		32EE3FF2289BDEE0005BFE53 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32EE3FF0289BDEE0005BFE53 /* FavoriteViewController.xib */; };
+		32EE3FF6289BDF94005BFE53 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE3FF5289BDF94005BFE53 /* TabBarModel.swift */; };
+		32EE3FF9289BDFBC005BFE53 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE3FF8289BDFBC005BFE53 /* TabBarConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		32EE3FEB289BDEC9005BFE53 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		32EE3FEF289BDEE0005BFE53 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		32EE3FF0289BDEE0005BFE53 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		32EE3FF5289BDF94005BFE53 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		32EE3FF8289BDFBC005BFE53 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		324E09D1289AAC86003F73A6 /* SurfSummerSchoolProject */ = {
 			isa = PBXGroup;
 			children = (
+				32EE3FF4289BDF59005BFE53 /* TabBar */,
 				32EE3FE4289BDE6C005BFE53 /* FavoriteModule */,
 				32EE3FE3289BDE5B005BFE53 /* MainModule */,
 				32EE3FE2289BDE42005BFE53 /* ProfileModule */,
@@ -104,6 +109,15 @@
 				32EE3FF0289BDEE0005BFE53 /* FavoriteViewController.xib */,
 			);
 			path = FavoriteModule;
+			sourceTree = "<group>";
+		};
+		32EE3FF4289BDF59005BFE53 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				32EE3FF5289BDF94005BFE53 /* TabBarModel.swift */,
+				32EE3FF8289BDFBC005BFE53 /* TabBarConfigurator.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +196,8 @@
 				32EE3FE7289BDEB0005BFE53 /* ProfileViewController.swift in Sources */,
 				324E09D7289AAC87003F73A6 /* ViewController.swift in Sources */,
 				324E09D3289AAC86003F73A6 /* AppDelegate.swift in Sources */,
+				32EE3FF6289BDF94005BFE53 /* TabBarModel.swift in Sources */,
+				32EE3FF9289BDFBC005BFE53 /* TabBarConfigurator.swift in Sources */,
 				32EE3FEC289BDEC9005BFE53 /* MainViewController.swift in Sources */,
 				32EE3FF1289BDEE0005BFE53 /* FavoriteViewController.swift in Sources */,
 			);
