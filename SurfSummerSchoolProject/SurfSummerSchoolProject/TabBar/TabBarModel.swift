@@ -44,7 +44,9 @@ enum TabBar: CaseIterable {
     var viewController: UIViewController {
         switch self {
         case .main:
-            return MainViewController()
+            let vc = MainViewController()
+            let navVC = UINavigationController(rootViewController: vc)
+            return navVC
         case .favorite:
             return FavoriteViewController()
         case .profile:
